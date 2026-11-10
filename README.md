@@ -29,10 +29,10 @@ and they saw a big lump of cheese lying on the ground.
 
 I've found that it runs at pretty much the same speed as the provided
 X86-64 'needle' binary when compiled on a Debian-13 VM. (about 11x realtime
-on my Zen-2 desktop)
+on my Zen-2 desktop without GPU, so 11 seconds of audio is transcribed in 1 second)
 
 There's a 2-line wav_to_raw.sh that uses the Sox application to make the
 clip.raw file from a clip.wav file.
 
 
-(Code provided for reseach purposes mainly. Only works for fairly short clips)
+(Code provided for research purposes mainly. Only works for fairly short clips)
